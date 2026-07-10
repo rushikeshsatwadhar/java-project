@@ -176,7 +176,7 @@ Grafana connects to Prometheus and displays real-time dashboards for:
 
 > Add your architecture diagram here.
 
-![Project Architecture](https://github.com/rushikeshsatwadhar/java-project/blob/main/ChatGPT%20Image%20Jul%2010,%202026,%2002_54_17%20PM.png?raw=true)
+![Project Architecture](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Project%20Architecture.png?raw=true)
 
 ---
 
@@ -188,7 +188,7 @@ Grafana connects to Prometheus and displays real-time dashboards for:
 
 An Ubuntu EC2 instance was launched to host Jenkins, Tomcat, Prometheus, Grafana, and the Netflix Clone application.
 
-![AWS EC2](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%2011.11.34%E2%80%AFAM.png?raw=true)
+![AWS EC2](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/AWS%20EC2%20Instance.png?raw=true)
 
 ---
 
@@ -196,7 +196,7 @@ An Ubuntu EC2 instance was launched to host Jenkins, Tomcat, Prometheus, Grafana
 
 Jenkins was installed and configured as the Continuous Integration (CI) server. It automatically detects code changes from GitHub, builds the project using Maven, and deploys the application.
 
-![Jenkins Dashboard](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%2012.18.32%E2%80%AFPM.png?raw=true)
+![Jenkins Dashboard](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Jenkins%20Dashboard.png?raw=true)
 
 ---
 
@@ -204,7 +204,7 @@ Jenkins was installed and configured as the Continuous Integration (CI) server. 
 
 After a successful Maven build, Jenkins deployed the generated WAR file to Apache Tomcat.
 
-![Tomcat](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%2012.23.22%E2%80%AFPM.png?raw=true)
+![Tomcat](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Deploy%20Application%20on%20Apache%20Tomcat.png?raw=true)
 
 ---
 
@@ -212,7 +212,7 @@ After a successful Maven build, Jenkins deployed the generated WAR file to Apach
 
 The Java web application was successfully deployed and is accessible through the Tomcat server.
 
-![Netflix Clone](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%203.01.29%E2%80%AFPM.png?raw=true)
+![Netflix Clone](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Netflix%20Clone%20Application.png?raw=true)
 
 ---
 
@@ -220,7 +220,7 @@ The Java web application was successfully deployed and is accessible through the
 
 Prometheus continuously collects infrastructure and application metrics from the server.
 
-![Prometheus](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%2012.52.18%E2%80%AFPM.png?raw=true)
+![Prometheus](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Prometheus%20Monitoring.png?raw=true)
 
 ---
 
@@ -228,6 +228,6 @@ Prometheus continuously collects infrastructure and application metrics from the
 
 Grafana connects to Prometheus and visualizes the collected metrics using interactive dashboards.
 
-![Grafana](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot%202026-07-10%20at%2012.53.50%E2%80%AFPM.png?raw=true)
+![Grafana](https://github.com/rushikeshsatwadhar/java-project/blob/main/Screenshot/Grafana%20Dashboard.png?raw=true)
 
 ---
